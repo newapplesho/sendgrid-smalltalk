@@ -8,11 +8,21 @@ You can get started in minutes using Metacello and FileTree.
 * [Marketing Email API](https://sendgrid.com/docs/API_Reference/Marketing_Emails_API/index.html) (supported Categories, Emails, Lists)
 
 # Requirement
-[Pharo](http://pharo.org/) 4.0
+
+### Smalltalk
+* [Pharo](http://pharo.org/) 4.0
 
 # How to install
 
-you may use git.
+```
+Gofer new
+url:'http://smalltalkhub.com/mc/newapplesho/sendgrid-smalltalk/main';
+    package: 'ConfigurationOfSendGrid';
+    load.
+(Smalltalk at: #ConfigurationOfSendGrid) load.
+```
+
+or you may use git.
 
 step 1
 
@@ -38,7 +48,7 @@ load.
 
 You can read our official documentation on the Web API's Mail feature [here](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
 
-### Email Body(text)
+### Email Body (text)
 
 ```smalltalk
 mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.client :=SendGridClient new.
@@ -52,7 +62,7 @@ or
 mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.mail send.
 ```
 
-### Email Body(html)
+### Email Body (html)
 
 ```smalltalk
 mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail html:'<h1>My first email through SendGrid</h1><p>Sent from Pharo Smalltalk</p>'.mail send.
@@ -85,7 +95,8 @@ sg renameListFrom: 'foobar' to: 'foobar2'.
 #### delete
 
 ```smalltalk
-(SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') delete:'foobar'.
+(SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
+	delete:'foobar'.
 ```
 
 
