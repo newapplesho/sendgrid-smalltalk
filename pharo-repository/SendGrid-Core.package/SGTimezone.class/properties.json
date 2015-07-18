@@ -1,0 +1,14 @@
+{
+	"category" : "SendGrid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SGTimezone",
+	"pools" : [
+		 ],
+	"super" : "SGWebAPI",
+	"type" : "normal" }

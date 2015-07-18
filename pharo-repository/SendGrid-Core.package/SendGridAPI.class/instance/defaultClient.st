@@ -1,0 +1,3 @@
+default
+defaultClient
+	^ SendGridClient new

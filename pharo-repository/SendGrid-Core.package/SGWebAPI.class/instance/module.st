@@ -1,0 +1,3 @@
+constants
+module
+	self subclassResponsibility 
