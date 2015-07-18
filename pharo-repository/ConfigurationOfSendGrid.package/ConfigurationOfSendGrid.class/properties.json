@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfSendGrid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfSendGrid",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
