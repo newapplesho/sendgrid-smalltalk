@@ -1,3 +1,3 @@
-accessing
+actions
 actionUrl: actionString
 	self subclassResponsibility 

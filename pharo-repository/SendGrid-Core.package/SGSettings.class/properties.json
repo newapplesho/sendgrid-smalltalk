@@ -1,0 +1,14 @@
+{
+	"category" : "SendGrid-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settingsDict" ],
+	"name" : "SGSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
