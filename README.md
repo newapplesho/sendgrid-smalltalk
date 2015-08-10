@@ -46,7 +46,7 @@ load.
 
 ## Web API's Email
 
-You can read our official documentation on the Web API's Mail feature [here](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+You can read  official documentation on the Web API's Mail feature [here](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
 
 ### Email Body (text)
 
