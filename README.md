@@ -27,7 +27,7 @@ or you may use git.
 step 1
 
 ```
-$ git clone https://github.com/newapplesho/aws-sdk-smalltalk
+$ git clone https://github.com/newapplesho/sendgrid-smalltalk
 ```
 
 step 2
@@ -51,7 +51,14 @@ You can read our official documentation on the Web API's Mail feature [here](htt
 ### Email Body (text)
 
 ```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.client :=SendGridClient new.
+mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
+mail from: 'foo@example.com'.
+mail fromName: 'Smalltalker'.
+mail to: 'bar@example.com'.
+mail subject:'SendGrid Test Mail'.
+mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
+
+client :=SendGridClient new.
 client send: mail.
 ```
 
@@ -59,13 +66,25 @@ or
 
 
 ```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.mail send.
+mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
+mail from: 'foo@example.com'.
+mail fromName: 'Smalltalker'.
+mail to: 'bar@example.com'.
+mail subject:'SendGrid Test Mail'.
+mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
+mail send.
 ```
 
 ### Email Body (html)
 
 ```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail html:'<h1>My first email through SendGrid</h1><p>Sent from Pharo Smalltalk</p>'.mail send.
+mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
+mail from: 'foo@example.com'.
+mail fromName: 'Smalltalker'.
+mail to: 'bar@example.com'.
+mail subject:'SendGrid Test Mail'.
+mail html:'<h1>My first email through SendGrid</h1><p>Sent from Pharo Smalltalk</p>'.
+mail send.
 ```
 
 
@@ -76,7 +95,8 @@ mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password
 #### add
 
 ```smalltalk
-sg := (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').sg add:'foobar'. "print it ==>  a JsonObject('message'->'success' )"
+sg := (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
+sg add:'foobar'. "print it ==>  a JsonObject('message'->'success' )"
 ```
 
 #### edit
@@ -105,27 +125,37 @@ sg renameListFrom: 'foobar' to: 'foobar2'.
 #### add
 
 ```smalltalk
-json := JsonObject new.json at:'name' put:'test'.json at:'email' put:'foobar@example.com'.(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
+json := JsonObject new.
+json at:'name' put:'test'.
+json at:'email' put:'foobar@example.com'.
+
+(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
 	list: 'foobar'; 
-	datum: (Array with: json asJsonString); add.```
+	datum: (Array with: json asJsonString); add.
+```
 
 #### get
 
-```smalltalk(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
-	list: 'foobar'; get.```
+```smalltalk
+(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
+	list: 'foobar'; get.
+```
 
 #### count
 
 ```smalltalk
 (SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
-	list: 'foobar'; count.```
+	list: 'foobar'; count.
+```
 
 #### delete
 
-```smalltalk(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
+```smalltalk
+(SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
  list: 'foobar';
  email:'foobar@example.com'; 
- delete.```
+ delete.
+```
 
 ### Categories
 
