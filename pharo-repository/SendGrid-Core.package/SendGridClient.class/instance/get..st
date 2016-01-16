@@ -6,4 +6,5 @@ get: aUrl
 	request url: aUrl.
 	client := self defaultClient new.
 	client request: request.
-	^ client execute.
+	client execute.
+	^ client response.

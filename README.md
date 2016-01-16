@@ -64,6 +64,12 @@ mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
 mail send.
 ```
 
+or
+
+```smalltalk
+mail := SGMail default.mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.client :=SendGridClient new.client send: mail.
+```
+
 ### Email Body (html)
 
 ```smalltalk

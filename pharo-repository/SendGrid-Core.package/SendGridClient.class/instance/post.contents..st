@@ -7,4 +7,5 @@ post: aUrl contents: entity
 	request entity: entity.
 	client := self defaultClient new.
 	client request: request.
-	^ client execute.
+	client execute.
+	^ client response.

@@ -1,4 +1,4 @@
 private
-parseResponse: responseString
+parseResponse: response
 	self format = 'json'
-		ifTrue:[	^ Json readFrom: responseString readStream. ].
+		ifTrue:[		^ (self defaultResponseClass on: response) value. ].
