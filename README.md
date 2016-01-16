@@ -14,32 +14,21 @@ You can get started in minutes using Metacello and FileTree.
 
 # How to install
 
+```smalltalk
+Metacello new
+    baseline: 'SendGrid';
+    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.1/pharo-repository';
+    load.
+```
+
+or
+
 ```
 Gofer new
 url:'http://smalltalkhub.com/mc/newapplesho/sendgrid-smalltalk/main';
     package: 'ConfigurationOfSendGrid';
     load.
 (Smalltalk at: #ConfigurationOfSendGrid) load.
-```
-
-or you may use git.
-
-step 1
-
-```
-$ git clone https://github.com/newapplesho/sendgrid-smalltalk
-```
-
-step 2
-
-```smalltalk
-| pathToPackageDirectory |
-"edit to match the path to your chosen package directory"
-pathToPackageDirectory := '/YOUR-GIT-DIRECTORY-PATH/sendgrid-smalltalk/pharo-repository/'.
-Metacello new
-baseline: 'SendGrid';
-repository: 'filetree://', pathToPackageDirectory;
-load.
 ```
 
 # How to use
