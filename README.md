@@ -17,7 +17,7 @@ You can get started in minutes using Metacello and FileTree.
 ```smalltalk
 Metacello new
     baseline: 'SendGrid';
-    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.1/pharo-repository';
+    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.2/pharo-repository';
     load.
 ```
 
@@ -67,7 +67,15 @@ mail send.
 or
 
 ```smalltalk
-mail := SGMail default.mail from: 'foo@example.com'.mail fromName: 'Smalltalker'.mail to: 'bar@example.com'.mail subject:'SendGrid Test Mail'.mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.client :=SendGridClient new.client send: mail.
+mail := SGMail default.
+mail from: 'foo@example.com'.
+mail fromName: 'Smalltalker'.
+mail to: 'bar@example.com'.
+mail subject:'SendGrid Test Mail'.
+mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
+
+client :=SendGridClient new.
+client send: mail.
 ```
 
 ### Email Body (html)
