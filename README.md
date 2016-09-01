@@ -10,14 +10,14 @@ You can get started in minutes using Metacello and FileTree.
 # Requirement
 
 ### Smalltalk
-* [Pharo](http://pharo.org/) 4.0
+* [Pharo](http://pharo.org/) 4.0, 5.0
 
 # How to install
 
 ```smalltalk
 Metacello new
     baseline: 'SendGrid';
-    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.2/pharo-repository';
+    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.3/pharo-repository';
     load.
 ```
 
