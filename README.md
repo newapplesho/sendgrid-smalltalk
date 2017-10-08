@@ -1,4 +1,4 @@
-# SendGrid Smalltalk
+# SendGrid Smalltalk [![Build Status](https://travis-ci.org/newapplesho/sendgrid-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/sendgrid-smalltalk)
 
 [SendGrid](https://sendgrid.com/) API Library to send emails very easily using Smalltalk.
 You can get started in minutes using Metacello and FileTree.
@@ -10,25 +10,15 @@ You can get started in minutes using Metacello and FileTree.
 # Requirement
 
 ### Smalltalk
-* [Pharo](http://pharo.org/) 4.0, 5.0
+* [Pharo](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
 
 # How to install
 
 ```smalltalk
 Metacello new
     baseline: 'SendGrid';
-    repository: 'github://newapplesho/sendgrid-smalltalk:v1.0.3/pharo-repository';
+    repository: 'github://newapplesho/sendgrid-smalltalk/pharo-repository';
     load.
-```
-
-or
-
-```
-Gofer new
-url:'http://smalltalkhub.com/mc/newapplesho/sendgrid-smalltalk/main';
-    package: 'ConfigurationOfSendGrid';
-    load.
-(Smalltalk at: #ConfigurationOfSendGrid) load.
 ```
 
 # How to use
