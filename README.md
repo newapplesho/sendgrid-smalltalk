@@ -1,6 +1,6 @@
 # SendGrid Smalltalk [![Build Status](https://travis-ci.org/newapplesho/sendgrid-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/sendgrid-smalltalk)
 
-[SendGrid](https://sendgrid.com/) API Library to send emails very easily using Smalltalk.
+[SendGrid](https://sendgrid.com/) API Library to send emails very easily using Pharo Smalltalk.
 You can get started in minutes using Metacello and FileTree.
 
 # Features
