@@ -1,3 +1,3 @@
 adding
-addBccEntry: toEntry
-	^ self bcc add: toEntry 
+addBccEntry: anEntry
+	^ self bcc add: anEntry 

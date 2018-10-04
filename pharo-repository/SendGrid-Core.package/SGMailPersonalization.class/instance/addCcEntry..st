@@ -1,3 +1,3 @@
 adding
-addCcEntry: toEntry
-	^ self cc add: toEntry 
+addCcEntry: anEntry
+	^ self cc add: anEntry 
