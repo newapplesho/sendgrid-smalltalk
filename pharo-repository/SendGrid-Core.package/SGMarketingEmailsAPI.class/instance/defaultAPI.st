@@ -1,3 +1,0 @@
-constants
-defaultAPI
-	self subclassResponsibility 
