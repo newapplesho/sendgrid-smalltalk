@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SGV2WebAPI",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"entity",
-		"results",
-		"format"
-	],
-	"name" : "SendGridAPI",
+	"instvars" : [ ],
+	"name" : "SGV2MailApi",
 	"type" : "normal"
 }

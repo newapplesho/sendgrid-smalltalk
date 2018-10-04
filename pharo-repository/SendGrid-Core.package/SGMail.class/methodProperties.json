@@ -1,21 +1,32 @@
 {
 	"instance" : {
-		"ccName:" : "ShoYoshida 7/18/2015 10:21",
-		"toName:" : "ShoYoshida 7/18/2015 10:21",
-		"module" : "ShoYoshida 7/17/2015 09:46",
-		"subject:" : "ShoYoshida 7/15/2015 23:56",
-		"send" : "ShoYoshida 7/18/2015 10:19",
-		"text:" : "ShoYoshida 9/1/2016 23:22",
-		"date:" : "ShoYoshida 7/17/2015 09:36",
-		"from:" : "ShoYoshida 7/15/2015 23:56",
-		"replyto:" : "ShoYoshida 7/17/2015 09:35",
-		"headers:" : "ShoYoshida 7/17/2015 09:37",
-		"to:" : "ShoYoshida 7/17/2015 09:31",
-		"fromName:" : "ShoYoshida 7/18/2015 10:21",
-		"bccName:" : "ShoYoshida 7/18/2015 10:21",
-		"html:" : "ShoYoshida 9/1/2016 23:22",
-		"cc:" : "ShoYoshida 7/17/2015 09:33",
-		"bcc:" : "ShoYoshida 7/17/2015 09:34"
+		"to:" : "MasashiUmezawa 10/4/2018 16:51",
+		"initialize" : "MasashiUmezawa 10/4/2018 15:47",
+		"attachments" : "MasashiUmezawa 10/4/2018 16:38",
+		"firstContent" : "MasashiUmezawa 10/4/2018 16:52",
+		"jsonObject:" : "MasashiUmezawa 10/4/2018 15:41",
+		"content" : "MasashiUmezawa 10/4/2018 16:52",
+		"fromEntry" : "MasashiUmezawa 10/4/2018 16:45",
+		"text:" : "MasashiUmezawa 10/4/2018 16:53",
+		"personalization" : "MasashiUmezawa 10/4/2018 16:43",
+		"replyTo:" : "MasashiUmezawa 10/4/2018 16:41",
+		"replyToEntry" : "MasashiUmezawa 10/4/2018 16:45",
+		"html:" : "MasashiUmezawa 10/4/2018 16:55",
+		"subject:" : "MasashiUmezawa 10/4/2018 16:43",
+		"toEntry" : "MasashiUmezawa 10/4/2018 17:32",
+		"replyToEntry:" : "MasashiUmezawa 10/4/2018 16:40",
+		"fromName:" : "MasashiUmezawa 10/4/2018 16:48",
+		"jsonObject" : "MasashiUmezawa 10/4/2018 15:41",
+		"from:" : "MasashiUmezawa 10/4/2018 16:50",
+		"send" : "MasashiUmezawa 10/4/2018 17:22",
+		"fromEntry:" : "MasashiUmezawa 10/4/2018 16:44",
+		"newDefaultJsonObject" : "MasashiUmezawa 10/4/2018 16:57",
+		"personalizations" : "MasashiUmezawa 10/4/2018 16:42",
+		"addAttachment:" : "MasashiUmezawa 10/4/2018 16:39",
+		"asDictionary" : "MasashiUmezawa 10/4/2018 16:58",
+		"toName:" : "MasashiUmezawa 10/4/2018 16:51"
 	},
-	"class" : { }
+	"class" : {
+		"default" : "MasashiUmezawa 10/4/2018 15:20"
+	}
 }

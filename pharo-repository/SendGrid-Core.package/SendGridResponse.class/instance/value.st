@@ -1,8 +1,9 @@
 actions
 value
-	| responseJson exception |
-	responseJson := Json readFrom: self response contents readStream.
+	| conts responseJson exception |
 	
+	conts := self response contents.
+	conts ifNotNil: [ responseJson := NeoJSONReader fromString: conts ].
 	self response isSuccess 
 		ifTrue:[^ responseJson ].
 		

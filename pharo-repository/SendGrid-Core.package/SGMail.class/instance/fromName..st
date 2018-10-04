@@ -1,3 +1,3 @@
-accessing
-fromName: aDestinationString
-	entity addPart: (ZnMimePart fieldName: 'fromname' value: aDestinationString)
+shortcuts
+fromName: aString
+	self fromEntry name: aString

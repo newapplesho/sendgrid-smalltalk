@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SGWebAPI",
+	"super" : "SGV2WebAPI",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

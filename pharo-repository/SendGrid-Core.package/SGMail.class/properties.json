@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SGWebAPI",
+	"super" : "SGEntity",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"jsonObject"
+	],
 	"name" : "SGMail",
 	"type" : "normal"
 }

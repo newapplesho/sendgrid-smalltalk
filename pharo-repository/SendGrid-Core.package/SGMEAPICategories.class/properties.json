@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SGMarketingEmailsAPI",
+	"super" : "SGV2MarketingEmailsAPI",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

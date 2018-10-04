@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SendGridAPI",
+	"super" : "SGEntity",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SGWebAPI",
+	"instvars" : [
+		"address",
+		"name"
+	],
+	"name" : "SGAddressEntry",
 	"type" : "normal"
 }

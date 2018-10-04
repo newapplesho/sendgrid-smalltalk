@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SGEntity",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"to",
+		"cc",
+		"bcc",
+		"subject",
+		"sendAt"
+	],
+	"name" : "SGMailPersonalization",
+	"type" : "normal"
+}

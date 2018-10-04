@@ -1,3 +1,3 @@
-templates
+actions-templates
 getTemplates
 	^self httpGet: 'templates'
