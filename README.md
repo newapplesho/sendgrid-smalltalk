@@ -17,7 +17,7 @@ You can get started in minutes using Metacello and FileTree.
 ```smalltalk
 Metacello new
     baseline: 'SendGrid';
-    repository: 'github://newapplesho/sendgrid-smalltalk/pharo-repository';
+    repository: 'github://sorabito/sendgrid-smalltalk/pharo-repository';
     load.
 ```
 
