@@ -5,9 +5,9 @@ baseline: spec
 	spec for: #common do: [
 		spec project: 'JSON' with: [
 			spec
-				className: 'ConfigurationOfJSON';
-				file: 'ConfigurationOfJSON';
-				repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main'. ].
+				className: 'ConfigurationOfNeoJSON';
+				file: 'ConfigurationOfNeoJSON';
+				repository: 'http://smalltalkhub.com/mc/MetaRepoForPharo60/main'. ].
 		spec 
 			package: 'SendGrid-Core'.
 	].
