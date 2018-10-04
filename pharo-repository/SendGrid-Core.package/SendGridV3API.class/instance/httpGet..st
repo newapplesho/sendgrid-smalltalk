@@ -1,6 +1,6 @@
 http-method
 httpGet: aString
 	| urlObject response |
-	urlObject := self getUrlFrom: aString.
-	response := self defaultClient get: urlObject.
+	urlObject := self newUrlFrom: aString.
+	response := self newClient get: urlObject.
 	^self parseResponse: response.

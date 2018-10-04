@@ -1,20 +1,19 @@
 {
 	"instance" : {
-		"apiKey" : "MasashiUmezawa 10/4/2018 12:07",
-		"apiUser:" : "MasashiUmezawa 10/4/2018 12:07",
-		"newClient" : "MasashiUmezawa 10/4/2018 14:25",
-		"parseResponse:" : "MasashiUmezawa 10/4/2018 12:13",
-		"apiKey:" : "MasashiUmezawa 10/4/2018 12:07",
+		"apiKey" : "MasashiUmezawa 10/4/2018 14:42",
+		"getTemplates" : "MasashiUmezawa 10/4/2018 14:45",
+		"newClient" : "MasashiUmezawa 10/4/2018 14:41",
+		"newUrlFrom:" : "MasashiUmezawa 10/4/2018 14:51",
+		"parseResponse:" : "MasashiUmezawa 10/4/2018 15:14",
+		"apiKey:" : "MasashiUmezawa 10/4/2018 14:42",
 		"defaultResponseClass" : "MasashiUmezawa 10/4/2018 12:07",
 		"url" : "MasashiUmezawa 10/4/2018 12:07",
-		"httpGet:" : "MasashiUmezawa 10/4/2018 12:14",
-		"apiUser" : "MasashiUmezawa 10/4/2018 12:07",
-		"httpPost:contents:" : "MasashiUmezawa 10/4/2018 14:11",
-		"baseUrl" : "MasashiUmezawa 10/4/2018 12:09",
-		"getUrlFrom:" : "MasashiUmezawa 10/4/2018 12:15"
+		"httpGet:" : "MasashiUmezawa 10/4/2018 14:51",
+		"httpPost:contents:" : "MasashiUmezawa 10/4/2018 14:46",
+		"baseUrl" : "MasashiUmezawa 10/4/2018 12:09"
 	},
 	"class" : {
-		"apiUser:apiKey:" : "MasashiUmezawa 10/4/2018 12:07",
-		"default" : "MasashiUmezawa 10/4/2018 12:07"
+		"apiKey:" : "MasashiUmezawa 10/4/2018 14:41",
+		"default" : "MasashiUmezawa 10/4/2018 15:10"
 	}
 }

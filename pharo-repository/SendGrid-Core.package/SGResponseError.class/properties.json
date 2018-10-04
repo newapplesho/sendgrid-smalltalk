@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Error",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"apiKey"
+		"response"
 	],
-	"name" : "SendGridV3API",
+	"name" : "SGResponseError",
 	"type" : "normal"
 }

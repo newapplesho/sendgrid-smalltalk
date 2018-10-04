@@ -1,4 +1,4 @@
 default
 default
-	^ self apiUser: SGSettings default apiUser apiKey: SGSettings default apiKey
+	^ self apiKey: SGSettings default v3ApiKey
 	

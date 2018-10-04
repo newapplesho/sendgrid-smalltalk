@@ -1,3 +1,3 @@
 factory
 newClient
-	^ SendGridClient bearerToken: ''
+	^ SendGridClient bearerToken: self apiKey
