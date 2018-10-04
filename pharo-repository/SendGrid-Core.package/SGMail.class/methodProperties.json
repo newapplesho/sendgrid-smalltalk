@@ -1,20 +1,21 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"bcc:" : "ShoYoshida 7/17/2015 09:34",
-		"bccName:" : "ShoYoshida 7/18/2015 10:21",
-		"cc:" : "ShoYoshida 7/17/2015 09:33",
 		"ccName:" : "ShoYoshida 7/18/2015 10:21",
+		"toName:" : "ShoYoshida 7/18/2015 10:21",
+		"module" : "ShoYoshida 7/17/2015 09:46",
+		"subject:" : "ShoYoshida 7/15/2015 23:56",
+		"send" : "ShoYoshida 7/18/2015 10:19",
+		"text:" : "ShoYoshida 9/1/2016 23:22",
 		"date:" : "ShoYoshida 7/17/2015 09:36",
 		"from:" : "ShoYoshida 7/15/2015 23:56",
-		"fromName:" : "ShoYoshida 7/18/2015 10:21",
-		"headers:" : "ShoYoshida 7/17/2015 09:37",
-		"html:" : "ShoYoshida 9/1/2016 23:22",
-		"module" : "ShoYoshida 7/17/2015 09:46",
 		"replyto:" : "ShoYoshida 7/17/2015 09:35",
-		"send" : "ShoYoshida 7/18/2015 10:19",
-		"subject:" : "ShoYoshida 7/15/2015 23:56",
-		"text:" : "ShoYoshida 9/1/2016 23:22",
+		"headers:" : "ShoYoshida 7/17/2015 09:37",
 		"to:" : "ShoYoshida 7/17/2015 09:31",
-		"toName:" : "ShoYoshida 7/18/2015 10:21" } }
+		"fromName:" : "ShoYoshida 7/18/2015 10:21",
+		"bccName:" : "ShoYoshida 7/18/2015 10:21",
+		"html:" : "ShoYoshida 9/1/2016 23:22",
+		"cc:" : "ShoYoshida 7/17/2015 09:33",
+		"bcc:" : "ShoYoshida 7/17/2015 09:34"
+	},
+	"class" : { }
+}

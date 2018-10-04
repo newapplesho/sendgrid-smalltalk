@@ -1,14 +1,11 @@
 {
-	"category" : "SendGrid-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SGMail",
-	"pools" : [
-		 ],
 	"super" : "SGWebAPI",
-	"type" : "normal" }
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SGMail",
+	"type" : "normal"
+}

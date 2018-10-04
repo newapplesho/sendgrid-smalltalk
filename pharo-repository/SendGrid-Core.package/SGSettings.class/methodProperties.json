@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"default" : "ShoYoshida 7/24/2015 01:07",
-		"initialize" : "ShoYoshida 7/24/2015 01:07" },
 	"instance" : {
-		"apiKey" : "ShoYoshida 7/24/2015 01:09",
-		"apiKey:" : "ShoYoshida 7/24/2015 01:09",
+		"settingsDict" : "ShoYoshida 1/16/2016 17:22",
+		"at:" : "ShoYoshida 7/24/2015 01:08",
 		"apiUser" : "ShoYoshida 7/24/2015 01:08",
 		"apiUser:" : "ShoYoshida 7/24/2015 01:08",
-		"at:" : "ShoYoshida 7/24/2015 01:08",
 		"at:ifAbsent:" : "ShoYoshida 7/24/2015 01:08",
+		"apiKey" : "ShoYoshida 7/24/2015 01:09",
+		"apiKey:" : "ShoYoshida 7/24/2015 01:09",
 		"at:ifAbsentPut:" : "ShoYoshida 7/24/2015 01:08",
-		"at:put:" : "ShoYoshida 7/24/2015 01:08",
-		"settingsDict" : "ShoYoshida 1/16/2016 17:22" } }
+		"at:put:" : "ShoYoshida 7/24/2015 01:08"
+	},
+	"class" : {
+		"initialize" : "ShoYoshida 7/24/2015 01:07",
+		"default" : "ShoYoshida 7/24/2015 01:07"
+	}
+}

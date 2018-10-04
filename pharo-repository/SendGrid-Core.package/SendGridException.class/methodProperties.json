@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"message" : "ShoYoshida 1/16/2016 19:11",
+		"properties:" : "ShoYoshida 1/16/2016 19:10",
 		"properties" : "ShoYoshida 1/16/2016 19:10",
-		"properties:" : "ShoYoshida 1/16/2016 19:10" } }
+		"message" : "ShoYoshida 1/16/2016 19:11"
+	},
+	"class" : { }
+}

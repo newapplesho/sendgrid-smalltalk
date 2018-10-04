@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SGMarketingEmailsAPI",
+	"super" : "Object",
 	"category" : "SendGrid-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SGMEAPIEmails",
+	"name" : "SendGridV3API",
 	"type" : "normal"
 }

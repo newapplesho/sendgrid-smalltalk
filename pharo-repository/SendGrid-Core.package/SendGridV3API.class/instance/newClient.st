@@ -1,0 +1,3 @@
+factory
+newClient
+	^ SendGridClient bearerToken: ''
