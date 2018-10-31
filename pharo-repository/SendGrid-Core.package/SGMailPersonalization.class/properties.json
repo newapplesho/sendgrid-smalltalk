@@ -10,7 +10,9 @@
 		"cc",
 		"bcc",
 		"subject",
-		"sendAt"
+		"sendAt",
+		"headers",
+		"substitutions"
 	],
 	"name" : "SGMailPersonalization",
 	"type" : "normal"
