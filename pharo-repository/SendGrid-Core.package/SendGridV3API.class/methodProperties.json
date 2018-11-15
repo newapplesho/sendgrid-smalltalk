@@ -1,17 +1,20 @@
 {
 	"instance" : {
 		"apiKey" : "MasashiUmezawa 10/4/2018 14:42",
+		"httpGet:params:" : "MasashiUmezawa 11/15/2018 14:45",
+		"listBouncesFrom:to:limit:offest:" : "MasashiUmezawa 11/15/2018 14:59",
 		"getTemplates" : "MasashiUmezawa 10/4/2018 14:45",
 		"newClient" : "MasashiUmezawa 10/4/2018 14:41",
 		"newUrlFrom:" : "MasashiUmezawa 10/4/2018 14:51",
-		"parseResponse:" : "MasashiUmezawa 10/4/2018 15:14",
 		"apiKey:" : "MasashiUmezawa 10/4/2018 14:42",
 		"httpPost:json:" : "MasashiUmezawa 10/4/2018 17:24",
 		"defaultResponseClass" : "MasashiUmezawa 10/4/2018 12:07",
+		"parseResponse:" : "MasashiUmezawa 10/4/2018 15:14",
 		"url" : "MasashiUmezawa 10/4/2018 12:07",
-		"httpGet:" : "MasashiUmezawa 10/4/2018 14:51",
+		"httpGet:" : "MasashiUmezawa 11/15/2018 14:46",
 		"sendMail:" : "MasashiUmezawa 10/4/2018 17:41",
-		"baseUrl" : "MasashiUmezawa 10/4/2018 12:09"
+		"baseUrl" : "MasashiUmezawa 10/4/2018 12:09",
+		"listInvalidMailsFrom:to:limit:offest:" : "MasashiUmezawa 11/15/2018 14:57"
 	},
 	"class" : {
 		"apiKey:" : "MasashiUmezawa 10/4/2018 14:41",
