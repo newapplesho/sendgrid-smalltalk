@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entity",
+		"results",
+		"format"
+	],
+	"name" : "SendGridV2API",
+	"type" : "normal"
+}

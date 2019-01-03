@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SGEntity",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"address",
+		"name"
+	],
+	"name" : "SGAddressEntry",
+	"type" : "normal"
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"defaultAPI" : "ShoYoshida 7/14/2015 11:14",
-		"list" : "ShoYoshida 7/18/2015 10:01" } }
+		"list" : "ShoYoshida 7/18/2015 10:01",
+		"defaultAPI" : "ShoYoshida 7/14/2015 11:14"
+	},
+	"class" : { }
+}

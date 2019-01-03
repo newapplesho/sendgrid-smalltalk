@@ -4,6 +4,7 @@
 You can get started in minutes using Metacello and FileTree.
 
 # Features
+* [V3 API (adding!)](https://sendgrid.com/docs/API_Reference/api_v3.html)
 * [Web API's Mail](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
 * [Marketing Email API](https://sendgrid.com/docs/API_Reference/Marketing_Emails_API/index.html) (supported Categories, Emails, Lists)
 

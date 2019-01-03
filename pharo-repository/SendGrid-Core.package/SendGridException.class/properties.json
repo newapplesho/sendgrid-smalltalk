@@ -1,14 +1,13 @@
 {
-	"category" : "SendGrid-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"properties" ],
-	"name" : "SendGridException",
-	"pools" : [
-		 ],
 	"super" : "Error",
-	"type" : "normal" }
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"properties"
+	],
+	"name" : "SendGridException",
+	"type" : "normal"
+}

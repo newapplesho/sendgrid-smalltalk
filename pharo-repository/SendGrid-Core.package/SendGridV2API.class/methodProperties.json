@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"defaultResponseClass" : "ShoYoshida 1/16/2016 18:58",
+		"apiKey:" : "ShoYoshida 7/15/2015 00:56",
+		"defaultClient" : "ShoYoshida 7/14/2015 11:49",
+		"initialize" : "ShoYoshida 7/15/2015 00:53",
+		"parseResponse:" : "ShoYoshida 1/16/2016 18:59",
+		"format:" : "ShoYoshida 7/15/2015 11:10",
+		"results" : "ShoYoshida 7/17/2015 10:25",
+		"httpPost:" : "ShoYoshida 1/16/2016 18:13",
+		"results:" : "ShoYoshida 7/17/2015 10:25",
+		"apiKey" : "ShoYoshida 7/15/2015 00:56",
+		"defaultFormat" : "ShoYoshida 7/15/2015 11:10",
+		"format" : "ShoYoshida 7/15/2015 11:10",
+		"apiUser:" : "ShoYoshida 7/15/2015 00:55",
+		"baseUrl" : "ShoYoshida 7/14/2015 11:31",
+		"httpPost:contents:" : "MasashiUmezawa 10/4/2018 14:09",
+		"httpGet:" : "ShoYoshida 7/18/2015 09:55",
+		"actionUrl:" : "ShoYoshida 7/24/2015 01:15",
+		"url" : "ShoYoshida 7/17/2015 10:37",
+		"apiUser" : "ShoYoshida 7/15/2015 00:56"
+	},
+	"class" : {
+		"apiUser:apiKey:" : "ShoYoshida 7/14/2015 11:29",
+		"default" : "ShoYoshida 7/24/2015 01:11"
+	}
+}

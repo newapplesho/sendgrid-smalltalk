@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SGEntity",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"content",
+		"filename"
+	],
+	"name" : "SGMailAttachment",
+	"type" : "normal"
+}

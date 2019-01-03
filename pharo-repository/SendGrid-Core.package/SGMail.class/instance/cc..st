@@ -1,3 +1,3 @@
-accessing
-cc: mailAddressString
-	entity addPart: (ZnMimePart fieldName: 'cc[]' value: mailAddressString)
+shortcuts
+cc: address
+	self personalization addCcEntry: (SGAddressEntry address: address)

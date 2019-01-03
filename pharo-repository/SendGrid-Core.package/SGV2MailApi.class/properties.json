@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SGV2WebAPI",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SGV2MailApi",
+	"type" : "normal"
+}

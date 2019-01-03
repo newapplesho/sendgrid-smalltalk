@@ -1,14 +1,11 @@
 {
-	"category" : "BaselineOfSendGrid",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BaselineOfSendGrid",
-	"pools" : [
-		 ],
 	"super" : "BaselineOf",
-	"type" : "normal" }
+	"category" : "BaselineOfSendGrid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfSendGrid",
+	"type" : "normal"
+}

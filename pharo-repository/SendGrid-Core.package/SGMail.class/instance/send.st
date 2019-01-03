@@ -1,3 +1,3 @@
 actions
 send
-	^ self httpPost: 'send'.
+	^self api sendMail: self

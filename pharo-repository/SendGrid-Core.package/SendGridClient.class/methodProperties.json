@@ -1,9 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"client" : "ShoYoshida 7/14/2015 11:48",
-		"defaultClient" : "ShoYoshida 7/14/2015 11:46",
-		"get:" : "ShoYoshida 1/16/2016 19:07",
-		"post:contents:" : "ShoYoshida 1/16/2016 19:07",
-		"send:" : "ShoYoshida 7/17/2015 10:06" } }
+		"bearerToken:" : "MasashiUmezawa 10/4/2018 14:05",
+		"httpClient" : "MasashiUmezawa 10/4/2018 14:26",
+		"newRequest:url:" : "MasashiUmezawa 10/4/2018 14:23",
+		"post:entity:" : "MasashiUmezawa 10/4/2018 14:20",
+		"post:json:" : "MasashiUmezawa 10/4/2018 23:09",
+		"sendRequest:" : "MasashiUmezawa 10/4/2018 14:25",
+		"bearerToken" : "MasashiUmezawa 10/4/2018 14:05",
+		"defaultHttpClientClass" : "MasashiUmezawa 10/4/2018 14:21",
+		"get:" : "MasashiUmezawa 10/4/2018 14:50"
+	},
+	"class" : {
+		"bearerToken:" : "MasashiUmezawa 10/4/2018 14:24"
+	}
+}

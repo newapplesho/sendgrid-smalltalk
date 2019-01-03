@@ -1,3 +1,3 @@
-accessing
-from: mailAddressString
-	entity addPart: (ZnMimePart fieldName: 'from' value: mailAddressString)
+shortcuts
+from: address
+	self fromEntry address: address
