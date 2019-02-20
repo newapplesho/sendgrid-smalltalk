@@ -1,3 +1,8 @@
 accessing
 toEntry
-	^ self personalization to first
+	| toes |
+	toes :=  self personalization to.
+	toes ifEmpty: [ 
+		^ self personalization addToEntry.
+	].
+	^toes first

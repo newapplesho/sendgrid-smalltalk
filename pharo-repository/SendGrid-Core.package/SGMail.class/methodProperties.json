@@ -1,14 +1,16 @@
 {
 	"instance" : {
+		"jsonObject" : "MasashiUmezawa 10/4/2018 15:41",
 		"headers" : "MasashiUmezawa 2/20/2019 15:44",
 		"sections" : "MasashiUmezawa 2/20/2019 15:59",
 		"addAttachmentNamed:contents:" : "MasashiUmezawa 10/4/2018 17:52",
 		"templateId:" : "MasashiUmezawa 2/20/2019 15:41",
 		"replyTo:" : "MasashiUmezawa 10/4/2018 16:41",
-		"newDefaultJsonObject" : "MasashiUmezawa 10/4/2018 16:57",
+		"newDefaultJsonObject" : "MasashiUmezawa 2/20/2019 18:05",
 		"personalizations:" : "MasashiUmezawa 2/20/2019 15:42",
 		"asDictionary" : "MasashiUmezawa 10/4/2018 16:58",
 		"sectionMustacheAt:put:" : "MasashiUmezawa 2/20/2019 15:55",
+		"addPersonalizationDo:" : "MasashiUmezawa 2/20/2019 18:16",
 		"content" : "MasashiUmezawa 10/4/2018 16:52",
 		"ccEntry" : "MasashiUmezawa 10/4/2018 18:14",
 		"initialize" : "MasashiUmezawa 10/4/2018 15:47",
@@ -17,10 +19,11 @@
 		"replyToEntry" : "MasashiUmezawa 10/4/2018 16:45",
 		"personalization" : "MasashiUmezawa 10/4/2018 16:43",
 		"subject:" : "MasashiUmezawa 10/4/2018 16:43",
-		"to:" : "MasashiUmezawa 10/4/2018 16:51",
 		"fromEntry:" : "MasashiUmezawa 10/4/2018 16:44",
+		"to:" : "MasashiUmezawa 10/4/2018 16:51",
 		"fromEntry" : "MasashiUmezawa 10/4/2018 16:45",
-		"toEntry" : "MasashiUmezawa 10/4/2018 17:32",
+		"toEntry" : "MasashiUmezawa 2/20/2019 18:41",
+		"initPersonalizations" : "MasashiUmezawa 2/20/2019 18:06",
 		"html:" : "MasashiUmezawa 10/4/2018 16:55",
 		"firstContent" : "MasashiUmezawa 10/4/2018 16:52",
 		"jsonObject:" : "MasashiUmezawa 10/4/2018 15:41",
@@ -34,9 +37,9 @@
 		"sectionAt:put:" : "MasashiUmezawa 2/20/2019 15:52",
 		"toName:" : "MasashiUmezawa 10/4/2018 16:51",
 		"text:" : "MasashiUmezawa 10/4/2018 16:53",
-		"cc:" : "MasashiUmezawa 10/4/2018 18:28",
+		"addPersonalization" : "MasashiUmezawa 2/20/2019 18:07",
 		"replyToEntry:" : "MasashiUmezawa 10/4/2018 18:24",
-		"jsonObject" : "MasashiUmezawa 10/4/2018 15:41"
+		"cc:" : "MasashiUmezawa 10/4/2018 18:28"
 	},
 	"class" : {
 		"default" : "MasashiUmezawa 10/4/2018 15:20"

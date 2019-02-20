@@ -1,0 +1,3 @@
+personalization
+addPersonalizationDo: aPersonalizationCustomizeBlock
+	^ aPersonalizationCustomizeBlock value: self addPersonalization 
