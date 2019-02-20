@@ -1,3 +1,3 @@
 accessing
 to
-	^ to ifNil: [ to := OrderedCollection with: SGAddressEntry new ]
+	^ to ifNil: [ to := OrderedCollection new ]
