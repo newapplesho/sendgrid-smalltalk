@@ -1,14 +1,17 @@
 {
 	"instance" : {
 		"bearerToken:" : "MasashiUmezawa 10/4/2018 14:05",
-		"httpClient" : "MasashiUmezawa 10/4/2018 14:26",
-		"newRequest:url:" : "MasashiUmezawa 10/4/2018 14:23",
-		"post:entity:" : "MasashiUmezawa 10/4/2018 14:20",
-		"post:json:" : "MasashiUmezawa 10/4/2018 23:09",
 		"sendRequest:" : "MasashiUmezawa 10/4/2018 14:25",
-		"bearerToken" : "MasashiUmezawa 10/4/2018 14:05",
 		"defaultHttpClientClass" : "MasashiUmezawa 10/4/2018 14:21",
-		"get:" : "MasashiUmezawa 10/4/2018 14:50"
+		"delete:" : "MasashiUmezawa 2/25/2019 18:48",
+		"newRequest:url:" : "MasashiUmezawa 10/4/2018 14:23",
+		"get:" : "MasashiUmezawa 10/4/2018 14:50",
+		"patch:entity:" : "MasashiUmezawa 2/25/2019 18:59",
+		"post:json:" : "MasashiUmezawa 10/4/2018 23:09",
+		"bearerToken" : "MasashiUmezawa 10/4/2018 14:05",
+		"httpClient" : "MasashiUmezawa 10/4/2018 14:26",
+		"patch:json:" : "MasashiUmezawa 2/25/2019 19:00",
+		"post:entity:" : "MasashiUmezawa 10/4/2018 14:20"
 	},
 	"class" : {
 		"bearerToken:" : "MasashiUmezawa 10/4/2018 14:24"
