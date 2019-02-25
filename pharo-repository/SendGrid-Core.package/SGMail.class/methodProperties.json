@@ -1,13 +1,14 @@
 {
 	"instance" : {
-		"jsonObject" : "MasashiUmezawa 10/4/2018 15:41",
+		"text:" : "MasashiUmezawa 10/4/2018 16:53",
 		"headers" : "MasashiUmezawa 2/20/2019 15:44",
 		"sections" : "MasashiUmezawa 2/20/2019 15:59",
 		"addAttachmentNamed:contents:" : "MasashiUmezawa 10/4/2018 17:52",
 		"templateId:" : "MasashiUmezawa 2/20/2019 15:41",
 		"replyTo:" : "MasashiUmezawa 10/4/2018 16:41",
 		"newDefaultJsonObject" : "MasashiUmezawa 2/20/2019 18:05",
-		"personalizations:" : "MasashiUmezawa 2/20/2019 15:42",
+		"initContent" : "MasashiUmezawa 2/25/2019 17:23",
+		"personalizations:" : " 2/25/2019 01:20:44",
 		"asDictionary" : "MasashiUmezawa 10/4/2018 16:58",
 		"sectionMustacheAt:put:" : "MasashiUmezawa 2/20/2019 15:55",
 		"addPersonalizationDo:" : "MasashiUmezawa 2/20/2019 18:16",
@@ -36,12 +37,13 @@
 		"replyToName:" : "MasashiUmezawa 11/15/2018 14:35",
 		"sectionAt:put:" : "MasashiUmezawa 2/20/2019 15:52",
 		"toName:" : "MasashiUmezawa 10/4/2018 16:51",
-		"text:" : "MasashiUmezawa 10/4/2018 16:53",
 		"addPersonalization" : "MasashiUmezawa 2/20/2019 18:07",
+		"cc:" : "MasashiUmezawa 10/4/2018 18:28",
 		"replyToEntry:" : "MasashiUmezawa 10/4/2018 18:24",
-		"cc:" : "MasashiUmezawa 10/4/2018 18:28"
+		"jsonObject" : "MasashiUmezawa 10/4/2018 15:41"
 	},
 	"class" : {
+		"forDynamicTemplate" : "MasashiUmezawa 2/25/2019 17:25",
 		"default" : "MasashiUmezawa 10/4/2018 15:20"
 	}
 }
