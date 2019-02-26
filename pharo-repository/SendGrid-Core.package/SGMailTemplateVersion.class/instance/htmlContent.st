@@ -1,3 +1,3 @@
 accessing
 htmlContent
-	^ htmlContent ifNil: [ htmlContent := '' ]
+	^ htmlContent ifNil: [ htmlContent := '<html>', self textContent, '</html>' ]
