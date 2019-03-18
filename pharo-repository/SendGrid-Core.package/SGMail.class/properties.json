@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"jsonObject"
+		"jsonObject",
+		"templates"
 	],
 	"name" : "SGMail",
 	"type" : "normal"

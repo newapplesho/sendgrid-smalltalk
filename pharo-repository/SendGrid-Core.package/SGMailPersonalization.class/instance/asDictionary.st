@@ -8,4 +8,7 @@ asDictionary
 	self bcc isEmpty ifFalse: [dict at: 'bcc' put: self bcc].
 	self headers isEmpty ifFalse: [dict at: 'headers' put: self headers].
 	self substitutions isEmpty ifFalse: [dict at: 'substitutions' put: self substitutions].
+	self customArgs isEmpty ifFalse: [dict at: 'custom_args' put: self customArgs].
+	self sendAt ifNotNil: [dict at: 'send_at' put: self sendAt].
+	self templateData isEmpty ifFalse: [dict at: 'dynamic_template_data' put: self templateData].
 	^dict

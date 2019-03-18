@@ -1,11 +1,26 @@
 {
 	"instance" : {
+		"deleteTemplateAt:" : "MasashiUmezawa 2/25/2019 19:13",
+		"getTemplates:" : "MasashiUmezawa 2/25/2019 18:11",
+		"httpDelete:" : "MasashiUmezawa 2/25/2019 18:24",
+		"httpPatch:json:" : "MasashiUmezawa 2/25/2019 18:59",
+		"getLegacyTemplates" : "MasashiUmezawa 2/25/2019 18:13",
+		"createNewVersionOfTemplateAt:name:subject:active:text:html:" : "MasashiUmezawa 2/25/2019 18:45",
 		"apiKey" : "MasashiUmezawa 10/4/2018 14:42",
 		"httpGet:params:" : "MasashiUmezawa 11/15/2018 14:45",
 		"getTemplates" : "MasashiUmezawa 10/4/2018 14:45",
+		"createTemplate:generationType:" : "MasashiUmezawa 2/25/2019 19:11",
+		"updateTemplateAt:versionAt:name:subject:active:text:html:" : "MasashiUmezawa 2/25/2019 19:03",
+		"createDynamicTemplate:" : "MasashiUmezawa 2/25/2019 19:11",
+		"activateTemplateAt:versionAt:" : "MasashiUmezawa 2/25/2019 18:55",
+		"createNewVersionOfTemplateAt:data:" : "MasashiUmezawa 2/25/2019 18:42",
+		"getDynamicTemplates" : "MasashiUmezawa 2/25/2019 18:12",
+		"deleteTemplateAt:versionAt:" : "MasashiUmezawa 2/25/2019 18:24",
+		"getTemplateAt:versionAt:" : "MasashiUmezawa 2/25/2019 18:20",
+		"newClient" : "MasashiUmezawa 10/4/2018 14:41",
+		"updateTemplateAt:versionAt:data:" : "MasashiUmezawa 2/25/2019 19:00",
 		"listInvalidMailsFrom:to:limit:offset:" : "kaminami 2/1/2019 10:59",
 		"listSpamReportsFrom:to:limit:offset:" : "kaminami 2/1/2019 11:01",
-		"newClient" : "MasashiUmezawa 10/4/2018 14:41",
 		"listBlocksFrom:to:limit:offset:" : "kaminami 2/1/2019 11:01",
 		"httpPost:json:" : "MasashiUmezawa 10/4/2018 17:24",
 		"apiKey:" : "MasashiUmezawa 10/4/2018 14:42",
@@ -16,7 +31,7 @@
 		"parseResponse:" : "MasashiUmezawa 10/4/2018 15:14",
 		"sendMail:" : "MasashiUmezawa 10/4/2018 17:41",
 		"baseUrl" : "MasashiUmezawa 10/4/2018 12:09",
-		"url" : "MasashiUmezawa 10/4/2018 12:07"
+        "url" : "MasashiUmezawa 10/4/2018 12:07"
 	},
 	"class" : {
 		"apiKey:" : "MasashiUmezawa 10/4/2018 14:41",

@@ -12,7 +12,9 @@
 		"subject",
 		"sendAt",
 		"headers",
-		"substitutions"
+		"substitutions",
+		"customArgs",
+		"templateData"
 	],
 	"name" : "SGMailPersonalization",
 	"type" : "normal"

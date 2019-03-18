@@ -1,0 +1,30 @@
+{
+	"instance" : {
+		"addVersionNamed:setting:" : "MasashiUmezawa 2/26/2019 18:16",
+		"versions:" : "MasashiUmezawa 2/26/2019 18:10",
+		"name" : "MasashiUmezawa 2/26/2019 09:59",
+		"delete" : "MasashiUmezawa 2/26/2019 10:10",
+		"name:" : "MasashiUmezawa 2/26/2019 09:59",
+		"generation:" : "MasashiUmezawa 2/26/2019 09:59",
+		"findVersionNamed:" : "MasashiUmezawa 2/26/2019 18:30",
+		"register" : "MasashiUmezawa 2/26/2019 18:27",
+		"hash" : "MasashiUmezawa 2/26/2019 18:15",
+		"id:" : "MasashiUmezawa 2/26/2019 09:59",
+		"ensureRegistered" : "MasashiUmezawa 2/26/2019 17:34",
+		"removeVersionNamed:" : "MasashiUmezawa 2/26/2019 18:33",
+		"activeVersion" : "MasashiUmezawa 2/26/2019 11:24",
+		"=" : "MasashiUmezawa 2/26/2019 18:15",
+		"generation" : "MasashiUmezawa 2/26/2019 10:00",
+		"id" : "MasashiUmezawa 2/26/2019 09:59",
+		"newVersionNamed:" : "MasashiUmezawa 2/26/2019 17:50",
+		"printOn:" : "MasashiUmezawa 2/26/2019 12:01",
+		"versions" : "MasashiUmezawa 2/26/2019 10:07",
+		"ensureVersionNamed:setting:" : "MasashiUmezawa 2/26/2019 18:32"
+	},
+	"class" : {
+		"id:name:generation:versions:" : "MasashiUmezawa 2/26/2019 10:03",
+		"id:name:generation:versionDicts:" : "MasashiUmezawa 2/26/2019 10:40",
+		"name:" : "MasashiUmezawa 2/26/2019 17:34",
+		"id:name:" : "MasashiUmezawa 2/26/2019 10:03"
+	}
+}

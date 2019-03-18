@@ -1,0 +1,3 @@
+private
+asMustacheKey: aString
+	^ '{{', aString, '}}'

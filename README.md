@@ -1,61 +1,47 @@
-# SendGrid Smalltalk [![Build Status](https://travis-ci.org/newapplesho/sendgrid-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/sendgrid-smalltalk)
+# SendGrid Smalltalk
 
-[SendGrid](https://sendgrid.com/) API Library to send emails very easily using Pharo Smalltalk.
-You can get started in minutes using Metacello and FileTree.
+[SendGrid](https://sendgrid.com/) client library to send emails very easily using [Pharo](http://pharo.org/) Smalltalk.
 
-# Features
+Forked from [sendgrid-smalltalk](https://github.com/newapplesho/sendgrid-smalltalk).
+
+## Features
+
+### V3
+
 * [V3 API (adding!)](https://sendgrid.com/docs/API_Reference/api_v3.html)
+  * Send
+  * Blocks and Spam report
+  * Substitision, Personalization and Dynamic Templates
+
+### V2 (outdated)
+
 * [Web API's Mail](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
 * [Marketing Email API](https://sendgrid.com/docs/API_Reference/Marketing_Emails_API/index.html) (supported Categories, Emails, Lists)
 
-# Requirement
+## Supported Pharo Versions
 
-### Smalltalk
-* [Pharo](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
+* [Pharo](http://pharo.org/) 5.0, 6.0, 6.1
 
-# How to install
+## How to install
 
 ```smalltalk
 Metacello new
     baseline: 'SendGrid';
-    repository: 'github://newapplesho/sendgrid-smalltalk/pharo-repository';
+    repository: 'github://sorabito/sendgrid-smalltalk/pharo-repository';
     load.
 ```
 
-# How to use
+## How to use
 
-## Web API's Email
+### Basic Mail Send
 
-You can read  official documentation on the Web API's Mail feature [here](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
-
-### Email Body (text)
+#### Settings
 
 ```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
-mail from: 'foo@example.com'.
-mail fromName: 'Smalltalker'.
-mail to: 'bar@example.com'.
-mail subject:'SendGrid Test Mail'.
-mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
-
-client :=SendGridClient new.
-client send: mail.
+SGSettings default v3ApiKey: 'SG.xxxxxxxxxxxxxxxxx'.
 ```
 
-or
-
-
-```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
-mail from: 'foo@example.com'.
-mail fromName: 'Smalltalker'.
-mail to: 'bar@example.com'.
-mail subject:'SendGrid Test Mail'.
-mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
-mail send.
-```
-
-or
+#### Sending a text mail
 
 ```smalltalk
 mail := SGMail default.
@@ -64,15 +50,13 @@ mail fromName: 'Smalltalker'.
 mail to: 'bar@example.com'.
 mail subject:'SendGrid Test Mail'.
 mail text:'My first email through SendGrid. Sent from Pharo Smalltalk.'.
-
-client :=SendGridClient new.
-client send: mail.
+mail send.
 ```
 
-### Email Body (html)
+#### Sending a html mail
 
 ```smalltalk
-mail := (SGMail apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
+mail := SGMail default.
 mail from: 'foo@example.com'.
 mail fromName: 'Smalltalker'.
 mail to: 'bar@example.com'.
@@ -82,31 +66,91 @@ mail send.
 ```
 
 
-## Marketing Email API
+### Mail Send with Templates
 
-### Lists
+You can send sophisticated e-mails using registered handlebars templates.
 
-#### add
+#### Registering a template
+
+```smalltalk
+template := (SGMailTemplate name: 'SampleMail-1') ensureRegistered.
+template ensureVersionNamed: 'v1' setting: [:v | 
+	v subject: '{{event}} ({{date}})'.
+	v textContent: '
+{{initialGreetings}}!
+
+{{body}}
+---
+{{signature}}'.
+]. "-> SGMailTemplate('d-18e84a9799fa4885b11d34a84e9e2384','SampleMail-1')"
+```
+
+#### Getting templates
+
+```smalltalk
+mail := SGMail default.
+mail allDynamicTemplates. "-> an Array(SGMailTemplate('d-18e84a9799fa4885b11d34a84e9e2384','SampleMail-1'))"
+
+mailTemplate := mail templateNamed: 'SampleMail-1'.
+mailTemplate versions. "->  an OrderedCollection(*SGMailTemplateVersion('c255155a-8fc5-471b-82cf-6e5192073245','v1'))"
+mailTemplateVersion := mailTemplate activeVersion. " -> *SGMailTemplateVersion('c255155a-8fc5-471b-82cf-6e5192073245','v1')"
+mailTemplateVersion loadContents textContent. "-> returns a template text content registered above"
+```
+
+#### Sending an aggregated mail with two personalizations
+
+```smalltalk
+mail := SGMail forDynamicTemplate.
+mail fromName: 'Info'.
+mail from: 'info@softumeya.com'.
+mail addPersonalizationDo: [ :p |
+	p addToEntryDo: [ :ent | ent address: 'aaa@aaa.com'; name: 'AAA'].
+	p templateData:  { 
+		'event' -> 'Smalltalk-meetup'.
+		'date' -> '2019/03/10'.
+		'initialGreetings' -> ('Hello ', p to first name).
+		'body' -> 'aaaaa'.
+		'signature' -> '[:masashi | ^umezawa]'.
+	} asDictionary 
+].
+mail addPersonalizationDo: [ :p |
+	p addToEntryDo: [ :ent | ent address: 'bbb@bbb.com'; name: 'BBB'].
+	p templateData:  { 
+		'event' -> 'Smalltalk-auction'.
+		'date' -> '2019/03/12'.
+		'initialGreetings' -> ('Hello ', p to first name).
+		'body' -> 'bbbbb'.
+		'signature' -> '-- MU'.
+	} asDictionary 
+].
+mail sendByTemplateNamed: 'SampleMail-1'. 
+```
+
+### Marketing Email API (V2)
+
+#### Lists
+
+##### add
 
 ```smalltalk
 sg := (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
 sg add:'foobar'. "print it ==>  a JsonObject('message'->'success' )"
 ```
 
-#### edit
+##### edit
 
 ```smalltalk
 sg := (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password').
 sg renameListFrom: 'foobar' to: 'foobar2'. 
 ```
 
-#### get
+##### get
 
 ```smalltalk
 (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') get.
 ```
 
-#### delete
+##### delete
 
 ```smalltalk
 (SGMEAPILists apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
@@ -114,9 +158,9 @@ sg renameListFrom: 'foobar' to: 'foobar2'.
 ```
 
 
-### Emails
+#### Emails
 
-#### add
+##### add
 
 ```smalltalk
 json := JsonObject new.
@@ -128,21 +172,21 @@ json at:'email' put:'foobar@example.com'.
 	datum: (Array with: json asJsonString); add.
 ```
 
-#### get
+##### get
 
 ```smalltalk
 (SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
 	list: 'foobar'; get.
 ```
 
-#### count
+##### count
 
 ```smalltalk
 (SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
 	list: 'foobar'; count.
 ```
 
-#### delete
+##### delete
 
 ```smalltalk
 (SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') 
@@ -151,7 +195,7 @@ json at:'email' put:'foobar@example.com'.
  delete.
 ```
 
-### Categories
+#### Categories
 
 ```smalltalk
 (SGMEAPICategories apiUser: 'your_sendgrid_username' apiKey:'your_sendgrid_password') list.

@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "SGEntity",
+	"category" : "SendGrid-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"template",
+		"id",
+		"name",
+		"subject",
+		"isActive",
+		"updatedTimestamp",
+		"textContent",
+		"htmlContent"
+	],
+	"name" : "SGMailTemplateVersion",
+	"type" : "normal"
+}
