@@ -9,9 +9,11 @@
 		"at:ifAbsentPut:" : "ShoYoshida 7/24/2015 01:08",
 		"apiUser" : "ShoYoshida 7/24/2015 01:08",
 		"at:ifAbsent:" : "ShoYoshida 7/24/2015 01:08",
-		"v3ApiKey:" : "MasashiUmezawa 10/4/2018 15:09",
+		"requestTimeoutSeconds:" : "KazunoriUeda 4/4/2019 11:29",
 		"settingsDict" : "ShoYoshida 1/16/2016 17:22",
-		"v3ApiKey" : "MasashiUmezawa 10/4/2018 15:09"
+		"v3ApiKey" : "MasashiUmezawa 10/4/2018 15:09",
+		"v3ApiKey:" : "MasashiUmezawa 10/4/2018 15:09",
+		"requestTimeoutSeconds" : "KazunoriUeda 4/4/2019 11:28"
 	},
 	"class" : {
 		"initialize" : "ShoYoshida 7/24/2015 01:07",
