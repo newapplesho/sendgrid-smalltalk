@@ -1,3 +1,6 @@
 factory
 newClient
-	^ SendGridClient bearerToken: self apiKey
+	| cli |
+	cli := SendGridClient bearerToken: self apiKey.
+	cli timeout: SGSettings default requestTimeoutSeconds.
+	^cli
