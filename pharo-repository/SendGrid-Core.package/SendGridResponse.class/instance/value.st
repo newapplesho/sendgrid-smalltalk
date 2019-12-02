@@ -9,6 +9,6 @@ value
 		
  	exception := SendGridException new.
 	exception properties: responseJson.
-	errorString := (responseJson at: 'errors' ifAbsent: [ responseJson at: 'error' ifAbsent: [ #('') ]]) first asString.
+	errorString := (responseJson at: 'errors' ifAbsent: [ {responseJson at: 'error' ifAbsent: [ '' ]}]) first asString.
 	exception messageText: errorString.
 	exception signal.
