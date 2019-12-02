@@ -1,7 +1,7 @@
 private
 prepareMessageText
 	| txt |
-	txt := self response ifNil: [''] ifNotNil: [:r | r printString].
+	txt := self buildMessageText.
 	messageText := txt.
 	^messageText
 	

@@ -1,11 +1,17 @@
 {
 	"instance" : {
+		"errors:" : "MasashiUmezawa 12/2/2019 12:11",
+		"initWithResponse:" : "MasashiUmezawa 12/2/2019 12:07",
+		"prepareMessageText" : "MasashiUmezawa 12/2/2019 12:15",
+		"buildMessageText" : "MasashiUmezawa 12/2/2019 12:29",
+		"errors" : "MasashiUmezawa 12/2/2019 12:11",
 		"response" : "MasashiUmezawa 10/4/2018 15:13",
+		"response:" : "MasashiUmezawa 10/4/2018 15:13",
 		"messageText" : "MasashiUmezawa 11/26/2019 17:36",
-		"prepareMessageText" : "MasashiUmezawa 11/26/2019 17:35",
-		"response:" : "MasashiUmezawa 10/4/2018 15:13"
+		"printError:on:" : "MasashiUmezawa 12/2/2019 13:26",
+		"parseErrors" : "MasashiUmezawa 12/2/2019 12:31"
 	},
 	"class" : {
-		"response:" : "MasashiUmezawa 10/4/2018 15:14"
+		"response:" : "MasashiUmezawa 12/2/2019 12:02"
 	}
 }
