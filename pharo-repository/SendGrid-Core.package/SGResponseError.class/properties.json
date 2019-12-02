@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"response"
+		"response",
+		"errors"
 	],
 	"name" : "SGResponseError",
 	"type" : "normal"
