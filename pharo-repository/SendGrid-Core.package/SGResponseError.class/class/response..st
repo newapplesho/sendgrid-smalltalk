@@ -1,3 +1,5 @@
 instance creation
 response: aResponse
-	^self new response: aResponse ; yourself
+	^ self new
+		initWithResponse: aResponse;
+		yourself

@@ -1,6 +1,6 @@
 actions
 value
-	| conts responseJson exception |
+	| conts responseJson exception errorString |
 	
 	conts := self response contents.
 	conts ifNotNil: [ responseJson := NeoJSONReader fromString: conts ].
@@ -9,5 +9,6 @@ value
 		
  	exception := SendGridException new.
 	exception properties: responseJson.
-	exception messageText: responseJson errors first asString .
+	errorString := (responseJson at: 'errors' ifAbsent: [ {responseJson at: 'error' ifAbsent: [ '' ]}]) first asString.
+	exception messageText: errorString.
 	exception signal.
